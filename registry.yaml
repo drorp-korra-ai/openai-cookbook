@@ -4,6 +4,52 @@
 # should build pages for, and indicates metadata such as tags, creation date and
 # authors for each page.
 
+- title: Long horizon tasks with Codex
+  path: examples/codex/long_horizon_tasks.md
+  slug: long-horizon-tasks
+  description: An experiment running Codex for ~25 hours on a design-tool build, with durable project memory, milestone verification, and long-horizon agent workflows.
+  date: 2026-02-23
+  authors:
+    - derrickchoi-openai
+  tags:
+    - codex
+    - agents
+    - gpt-5
+    - workflows
+    - planning
+    - verification
+
+- title: Building Governed AI Agents - A Practical Guide to Agentic Scaffolding
+  path: examples/partners/agentic_governance_guide/agentic_governance_cookbook.ipynb
+  slug: agentic-governance-cookbook
+  description: A practical guide to building governed AI agents with OpenAI Agents SDK and Guardrails.
+  date: 2026-02-23
+  authors:
+    - shikhar-cyber
+    - Pavan Kumar Muthozu
+    - Frankie LaCarrubba
+  tags:
+    - agents
+    - tracing
+    - guardrails
+    - governance
+    - evals
+    - promptfoo
+    - partners
+
+- title: Realtime Eval Guide
+  path: examples/Realtime_eval_guide.ipynb
+  slug: realtime-eval-guide
+  date: 2026-01-25
+  authors:
+    - minh-hoque
+  tags:
+    - realtime
+    - speech
+    - audio
+    - responses
+    - evals
+
 - title: Build your own content fact checker with gpt-oss-120B, Cerebras, and Parallel
   path: articles/gpt-oss/build-your-own-fact-checker-cerebras.ipynb
   slug: build-your-own-fact-checker-cerebras
@@ -3029,7 +3075,7 @@
     - msingh-openai
     - emreokcular
   tags:
-    - images 
+    - images
     - vision
 
 - title: Prompt Personalities
@@ -3043,3 +3089,41 @@
   tags:
     - gpt-5
     - prompt-personalities
+
+- title: Image Evals for Image Generation and Editing Use Cases
+  path: examples/multimodal/image_evals.ipynb
+  slug: image-evals
+  description: Cookbook to build image evals for image generation and editing use cases.
+  date: 2026-01-29
+  authors:
+    - emreokcular
+    - kathylau-oai
+  tags:
+    - evals
+    - vision
+    - images
+
+- title: Skills in OpenAI API
+  path: examples/skills_in_api.ipynb
+  slug: skills-in-api
+  description: Cookbook for building skills with the OpenAI API.
+  date: 2026-02-10
+  authors:
+    - emreokcular
+
+  tags:
+    - responses
+
+- title: Prompt Caching 201
+  path: examples/Prompt_Caching_201.ipynb
+  slug: prompt-caching-201
+  description: Cookbook for improving prompt caching hit rate, latency, and cost.
+  date: 2026-02-18
+  authors:
+    - erikakettleson-openai
+  tags:
+    - prompt-caching
+    - latency
+    - cost
+    - responses
+    - realtime
